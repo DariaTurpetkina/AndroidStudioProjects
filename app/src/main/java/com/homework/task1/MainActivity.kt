@@ -43,12 +43,10 @@ class MainActivity : AppCompatActivity() {
             val intAge = Integer.parseInt(a.toString())
             val intHeight = Integer.parseInt(h.toString())
             val decWeight = Integer.parseInt(w.toString()).toDouble()
-            if(intAge in 151 downTo -1){
-                if(n.length in 51 downTo -1 && !n.contains("0")&& !n.contains("1")&& !n.contains("2")&&
-                    !n.contains("3")&& !n.contains("4")&& !n.contains("5")&& !n.contains("6")&&
-                    !n.contains("7")&& !n.contains("8")&& !n.contains("9")) {
+            if(intAge < 151 && intAge > -1){
+                if(n.length < 51 && n.length > -1) {
                     if(decWeight < 250 && decWeight > 0){
-                        if(intHeight in 251 downTo -1){
+                        if(intHeight < 251 && intHeight > -1){
                             calories.text = "Калории: " + ((intHeight + ceil(decWeight))/2).toString()
                             if(name.text.length > 3 || name.text.contains("д") || name.text.contains("п") ||
                                 name.text.contains("а")){
