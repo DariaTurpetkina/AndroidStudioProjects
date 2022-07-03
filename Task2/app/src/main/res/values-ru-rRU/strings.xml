@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="settings_menu">настройки</string>
+    <string name="profile_menu">профиль</string>
+    <string name="main_menu">меню</string>
+    <string name="hello_blank_fragment">привет</string>
+    <string name="games_menu">игры</string>
+    <string name="videos_menu">видео</string>
+</resources>

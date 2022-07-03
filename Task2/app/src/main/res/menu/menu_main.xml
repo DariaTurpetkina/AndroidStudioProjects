@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted"
+        android:title="@string/main_menu"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="@string/profile_menu"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/settings_menu"/>
+    <item
+        android:id="@+id/gamesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_games"
+        android:title="@string/games_menu"/>
+    <item
+        android:id="@+id/videoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_video"
+        android:title="@string/videos_menu"/>
+
+</menu>
